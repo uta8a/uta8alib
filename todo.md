@@ -1,6 +1,7 @@
 # TodoList
 - testをローカルで行う方法の追加
 - CIの導入
+
 # Done
 - library fileの生成 commandline toolの作成
 - ngtkanaさん https://github.com/ngtkana/ngtlib/blob/master/make_snippet.sh のように、cargoを使おう。gitmoduleを使う
@@ -36,11 +37,13 @@ fn func(a:i32) -> i32 {
     a
 }
 ```
+
 ### rustのtest
 - コピペもしたいので、1ファイルには本体のみ置きたい。testは別々にしたい。
 - pubはつけたくない(どうせ1ファイルにまとめるので)
 - でも1ファイルにしないとprivate methodにアクセスできない
 - **結論** test.shでcargoを新規作成して、そこにrust/example/main.rsとtest/rust/example/main.rsをまとめたものをrust-test/src/example.rsに入れる。あくまで見えているファイルは出力前の状態。
+
 # note
 - git submoduleはまず最初にaddを行う。.gitmodulesから自動でとってくるみたいな便利機能はなさそう。
 - 自動でgitmodulesに記載されるので気にしない
