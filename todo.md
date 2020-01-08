@@ -36,6 +36,11 @@ fn func(a:i32) -> i32 {
     a
 }
 ```
+### rustのtest
+- コピペもしたいので、1ファイルには本体のみ置きたい。testは別々にしたい。
+- pubはつけたくない(どうせ1ファイルにまとめるので)
+- でも1ファイルにしないとprivate methodにアクセスできない
+- **結論** test.shでcargoを新規作成して、そこにrust/example/main.rsとtest/rust/example/main.rsをまとめたものをrust-test/src/example.rsに入れる。あくまで見えているファイルは出力前の状態。
 # note
 - git submoduleはまず最初にaddを行う。.gitmodulesから自動でとってくるみたいな便利機能はなさそう。
 - 自動でgitmodulesに記載されるので気にしない

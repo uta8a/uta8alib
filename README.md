@@ -3,7 +3,7 @@
 
 [Todo](./todo.md)
 
-# git addの前に
+### git addの前に
 - バイナリをcommitしないようにしましょう
 ```
 find . -executable -type f -exec file {} \; | grep -i elf | sed '/^\.\/\.git\//d' | sed -e 's/^\.\/\(.*\):.*/\1/' >> .gitignore
