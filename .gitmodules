@@ -1,0 +1,3 @@
+[submodule "chan"]
+	path = chan
+	url = git://github.com/uta8a/chan
