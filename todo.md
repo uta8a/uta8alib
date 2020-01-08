@@ -1,5 +1,6 @@
 # TodoList
-- 
+- testをローカルで行う方法の追加
+- CIの導入
 # Done
 - library fileの生成 commandline toolの作成
 - ngtkanaさん https://github.com/ngtkana/ngtlib/blob/master/make_snippet.sh のように、cargoを使おう。gitmoduleを使う
