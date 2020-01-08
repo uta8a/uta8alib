@@ -1,4 +1,6 @@
 # TodoList
+- 
+# Done
 - library fileの生成 commandline toolの作成
 - ngtkanaさん https://github.com/ngtkana/ngtlib/blob/master/make_snippet.sh のように、cargoを使おう。gitmoduleを使う
 
@@ -32,4 +34,14 @@
 fn func(a:i32) -> i32 {
     a
 }
+```
+# note
+- git submoduleはまず最初にaddを行う。.gitmodulesから自動でとってくるみたいな便利機能はなさそう。
+- 自動でgitmodulesに記載されるので気にしない
+```
+git submodule add git@github.com:uta8a/chan.git chan
+```
+- remoteの最新に追従する
+```
+git submodule foreach git pull origin master
 ```
