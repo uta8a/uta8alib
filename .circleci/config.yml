@@ -9,7 +9,7 @@ jobs:
     working_directory: ~/work
     steps:
       - checkout
-      - run: ./libtest.sh
+      - run: useradd uta8a && ./libtest.sh
 
 workflows:
   build:
