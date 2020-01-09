@@ -3,5 +3,5 @@ project(cpptest VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-Wall -fsanitize=undefined")
 set(CMAKE_BUILD_TYPE Debug)
-
+enable_testing()
 add_subdirectory("./test/cpp")
