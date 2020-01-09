@@ -5,7 +5,9 @@ jobs:
     docker:
       - image: circleci/rust
       - image: gcc:latest
+    working_directory: ~/work
     steps:
+      - checkout
       - run: ./libtest.sh
 
 workflows:
