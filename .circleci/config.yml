@@ -9,6 +9,8 @@ jobs:
     working_directory: ~/work
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: ./libtest.sh
 
 workflows:
