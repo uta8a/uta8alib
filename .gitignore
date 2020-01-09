@@ -1,6 +1,2 @@
-chan/target/release/chan
-chan/target/release/deps/chan-740d597685d75eb1
-/rust-test
-rust-test/target/debug/rust_test-893c2cc849bc2db0
-rust-test/target/debug/deps/rust_test-893c2cc849bc2db0
 /cpp-test
+/rust-test
