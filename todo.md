@@ -2,6 +2,7 @@
 - testをローカルで行う方法の追加 https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
 - CMakeLists.txtとCache2のテスト例の追加
 - CIの導入
+- まず小さな例でCMakeとインクルードを理解する必要がある。
 
 # Done
 - library fileの生成 commandline toolの作成
@@ -55,3 +56,6 @@ git submodule add git@github.com:uta8a/chan.git chan
 ```
 git submodule foreach git pull origin master
 ```
+
+- https://qiita.com/youcune/items/fcfb4ad3d7c1edf9dc96
+- https://www.task-notes.com/entry/20150214/1423882800
