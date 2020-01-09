@@ -60,4 +60,10 @@ git submodule foreach git pull origin master
 - https://qiita.com/youcune/items/fcfb4ad3d7c1edf9dc96
 - https://www.task-notes.com/entry/20150214/1423882800
 - https://www.jonki.net/entry/2016/06/15/220029 ctest --verboseで確かめよう
+
+# circle ci導入
+```
+❯ curl https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh --fail --show-error |sudo bash
+```
+- localに、yamlチェック用でインストールしておく
 - 
