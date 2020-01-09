@@ -4,12 +4,11 @@ jobs:
   build_and_test:
     docker:
       - image: circleci/rust
-        user: uta8a
       - image: gcc:latest
     working_directory: ~/work
     steps:
       - checkout
-      - run: useradd uta8a && ./libtest.sh
+      - run: useradd uta8a && su uta8a && ./libtest.sh
 
 workflows:
   build:
