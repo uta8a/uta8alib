@@ -1,6 +1,6 @@
 message(STATUS "Building Unit Tests...")
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
-message("dir: ${CMAKE_CURRENT_LIST_DIR}")
+# message("dir: ${CMAKE_CURRENT_LIST_DIR}")
 include_directories(
     ${CMAKE_CURRENT_LIST_DIR}/../../Catch2/single_include
     ${CMAKE_CURRENT_LIST_DIR}/../../src/cpp/include
