@@ -66,4 +66,14 @@ git submodule foreach git pull origin master
 ❯ curl https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh --fail --show-error |sudo bash
 ```
 - localに、yamlチェック用でインストールしておく
-- 
+- dockerfileを作る
+- pushした
+```
+docker login
+docker build -t uta8a/circleci-rust-cmake:0.0.1 .
+docker push uta8a/circleci-rust-cmake:0.0.1
+```
+- circleci local execute
+```
+circleci local execute --job build_and_test
+```
