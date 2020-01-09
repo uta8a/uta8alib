@@ -13,6 +13,7 @@ jobs:
       - run: ./libtest.sh
 
 workflows:
+  version: 2
   build:
     jobs:
       - build_and_test
