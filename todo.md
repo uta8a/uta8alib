@@ -1,5 +1,6 @@
 # TodoList
-- testをローカルで行う方法の追加
+- testをローカルで行う方法の追加 https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
+- CMakeLists.txtとCache2のテスト例の追加
 - CIの導入
 
 # Done
