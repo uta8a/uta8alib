@@ -12,3 +12,5 @@
 - [x] Rustのテスト
 - [x] C++のテスト
 - [x] Gitの開発フローを決めた
+- [x] Circle CI badgeを導入した
+- [x] LICENSEを加えた
