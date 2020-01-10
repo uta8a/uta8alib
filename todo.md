@@ -100,6 +100,8 @@ git commit -m "fix: docs [ci skip]"
 # ライブラリの拡充
 - https://github.com/kgtkr/procon-lib-rs/blob/master/src/gcd.rs
   - tkrさんのライブラリ。Rustで参考になる
+- http://sigma1113.hatenablog.com/entry/2019/12/14/192945
+  - segment tree
 
 # C++とRust
 - https://qiita.com/rita0222/items/09e49723e3339ba5de24
