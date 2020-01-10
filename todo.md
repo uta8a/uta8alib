@@ -1,12 +1,19 @@
 # TodoList
-- testをローカルで行う方法の追加 https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
-- CMakeLists.txtとCache2のテスト例の追加
-- CIの導入
-- まず小さな例でCMakeとインクルードを理解する必要がある。
+- Logoを作ってやる気を高める  
+- Verifyしてみる  
+- snippetの導入  
+- 競プロで使うエディタの選定  
+- どこでも競プロできるようにシェルスクリプトを書く  
+- ライブラリの種類をどうやって増やすか(アルゴリズムを学ぶ)  
 
 # Done
 - library fileの生成 commandline toolの作成
 - ngtkanaさん https://github.com/ngtkana/ngtlib/blob/master/make_snippet.sh のように、cargoを使おう。gitmoduleを使う
+- testをローカルで行う方法の追加 https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
+- CMakeLists.txtとCache2のテスト例の追加
+- CIの導入
+- まず小さな例でCMakeとインクルードを理解する必要がある。
+- LICENSEを加える  
 
 # 考えていること
 - ディレクトリ構成
