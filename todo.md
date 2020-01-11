@@ -5,6 +5,8 @@
 - 競プロで使うエディタの選定  
 - どこでも競プロできるようにシェルスクリプトを書く  
 - ライブラリの種類をどうやって増やすか(アルゴリズムを学ぶ)  
+- ジャッジ待つドキドキ感がいらないので通知がほしい。
+
 
 # Done
 - library fileの生成 commandline toolの作成
@@ -119,3 +121,4 @@ git commit -m "fix: docs [ci skip]"
   - Rust like traits C++
 - https://qiita.com/akinomyoga/items/506bd1fe47046bd636ae
   - Conceptsの関係
+
