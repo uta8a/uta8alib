@@ -111,7 +111,8 @@ git commit -m "fix: docs [ci skip]"
   - tkrさんのライブラリ。Rustで参考になる
 - http://sigma1113.hatenablog.com/entry/2019/12/14/192945
   - segment tree
-
+- https://qiita.com/Nikkely/items/0ddca51b3c0e60afbaab
+  - next_permutation
 # C++とRust
 - https://qiita.com/rita0222/items/09e49723e3339ba5de24
   - Traits C++
@@ -121,4 +122,5 @@ git commit -m "fix: docs [ci skip]"
   - Rust like traits C++
 - https://qiita.com/akinomyoga/items/506bd1fe47046bd636ae
   - Conceptsの関係
-
+- https://gist.github.com/brendanzab/9220415
+  - template vs Generics
