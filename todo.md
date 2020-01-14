@@ -113,6 +113,11 @@ git commit -m "fix: docs [ci skip]"
   - segment tree
 - https://qiita.com/Nikkely/items/0ddca51b3c0e60afbaab
   - next_permutation
+- https://qiita.com/fockl/items/bd7a53bd3534664d8fb9
+  - 可変長template
+- https://codeforces.com/blog/entry/62690
+  - 期待値問題に立ち向かう
+
 # C++とRust
 - https://qiita.com/rita0222/items/09e49723e3339ba5de24
   - Traits C++
@@ -124,3 +129,7 @@ git commit -m "fix: docs [ci skip]"
   - Conceptsの関係
 - https://gist.github.com/brendanzab/9220415
   - template vs Generics
+
+# 作問者向け
+- https://qiita.com/e869120/items/45a0132263094b83fc44
+  - 一番始めに読むべき
